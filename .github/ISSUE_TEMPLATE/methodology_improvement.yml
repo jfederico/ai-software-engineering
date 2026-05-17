@@ -1,0 +1,41 @@
+name: Methodology improvement
+description: Propose an improvement to phases, gates, templates, or prompts
+title: "proposal: "
+labels:
+  - enhancement
+body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - requirement-gathering
+        - phase-gated-delivery
+        - both
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the change precisely.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact and trade-offs
+      description: Backward compatibility, risks, migration notes.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a defect in methodology docs, prompts, templates, or workflow guidance
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - requirement-gathering
+        - phase-gated-delivery
+        - templates
+        - docs-links
+        - release-process
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is wrong?
+      placeholder: Briefly describe the issue
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open file...
+        2. Follow step...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. 0.1.0 or main
