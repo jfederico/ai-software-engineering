@@ -28,7 +28,7 @@ The current public baseline is **v0.1.0**.
 
 ## Overview: The Complete Workflow
 
-```
+```text
 Your Idea
     ↓
 Requirement Gathering & Documentation (Methodology 1)
@@ -242,7 +242,8 @@ If major assumptions prove wrong (e.g., "vector databases won't scale as expecte
 ## Tools and Files
 
 ### Requirement Gathering
-```
+
+```text
 requirement-gathering/
   METHODOLOGY.md              (How to use requirement gathering)
   prompts/
@@ -255,7 +256,8 @@ requirement-gathering/
 ```
 
 ### Phase-Gated Delivery
-```
+
+```text
 phase-gated-delivery/
   METHODOLOGY.md              (How to use phase-gated delivery)
   prompts/
@@ -274,7 +276,7 @@ phase-gated-delivery/
 
 ## Sample Timeline
 
-### Requirement Gathering
+### Requirement Gathering Timeline
 - Day 1: Phase 1 (Kickoff) — 20 minutes
 - Day 2-3: Phases 2-3 (Scope, Users) — 1 hour total
 - Day 4-5: Phase 4 (Requirements) — 45 minutes

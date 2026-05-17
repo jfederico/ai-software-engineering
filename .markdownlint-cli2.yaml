@@ -1,0 +1,22 @@
+config:
+  default: true
+  MD013: false
+  MD012: false
+  MD022: false
+  MD026: false
+  MD032: false
+  MD041: false
+  MD033: false
+
+# Start with a strict-but-practical release baseline on root and GitHub docs.
+# We can expand this scope to methodology folders in follow-up hardening.
+globs:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "CONTRIBUTING.md"
+  - "CODE_OF_CONDUCT.md"
+  - "SECURITY.md"
+  - "SUPPORT.md"
+  - "VERSIONING.md"
+  - "GOVERNANCE.md"
+  - ".github/**/*.md"

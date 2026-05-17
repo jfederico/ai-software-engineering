@@ -9,7 +9,7 @@ This repository is documentation-first. The latest version on the default branch
 Do not open public issues for security-sensitive findings.
 
 Report privately to:
-- Email: maintainers@local.invalid
+- Email: [maintainers@local.invalid](mailto:maintainers@local.invalid)
 - Subject: Security Report - AI Software Engineering Methodologies
 
 Include:

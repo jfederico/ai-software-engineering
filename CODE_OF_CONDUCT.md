@@ -24,6 +24,6 @@ Project maintainers are responsible for clarifying and enforcing this Code of Co
 
 ## Reporting
 
-Report concerns privately to: maintainers@local.invalid
+Report concerns privately to: [maintainers@local.invalid](mailto:maintainers@local.invalid)
 
 All reports will be reviewed promptly and handled with discretion.

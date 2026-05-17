@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - dev
 
 jobs:
   markdown:
@@ -17,8 +18,15 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v20
         with:
           globs: |
-            **/*.md
-            !.git/**
+            README.md
+            CHANGELOG.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
+            SUPPORT.md
+            VERSIONING.md
+            GOVERNANCE.md
+            .github/**/*.md
 
   links:
     runs-on: ubuntu-latest
@@ -32,7 +40,14 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --exclude-mail
-            ./**/*.md
+            README.md
+            CHANGELOG.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            SECURITY.md
+            SUPPORT.md
+            VERSIONING.md
+            GOVERNANCE.md
+            .github/pull_request_template.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
